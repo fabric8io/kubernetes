@@ -5,6 +5,7 @@
   "properties": {
     "version": {
       "type": "string",
+      "required": false,
       "description": "The version of the manifest.",
       "enum": [
         "v1beta1"
@@ -15,6 +16,7 @@
       "description": "The list of containers to launch.",
       "items": {
         "type": "object",
+        "javaType": "io.fabric8.kubernetes.api.model.ManifestContainer",
         "required": [
           "name", 
           "image"

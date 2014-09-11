@@ -26,7 +26,7 @@
       "description": "The desired configuration of the pod",
       "properties": {
         "manifest": {
-          "type": "object",
+          "$ref": "manifest-schema.json",
           "required": false,
           "description": "Manifest describing group of [Docker containers](http://docker.io); compatible with format used by [Google Cloud Platform's container-vm images](https://developers.google.com/compute/docs/containers)"
         },
@@ -59,6 +59,7 @@
       "properties": {
         "manifest": {
           "type": "object",
+          "javaType": "io.fabric8.kubernetes.api.model.PodContainerManifest",
           "required": false
         },
         "status": {

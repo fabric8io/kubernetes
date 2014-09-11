@@ -22,6 +22,7 @@
     },
     "desiredState": {
       "type": "object",
+      "javaType": "io.fabric8.kubernetes.api.model.ControllerDesiredState",
       "required": false,
       "description": "The desired configuration of the replicationController",
       "properties": {
