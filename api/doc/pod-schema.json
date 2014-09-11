@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-03/schema",
   "type": "object",
+  "javaType": "io.fabric8.kubernetes.api.model.PodSchema",
   "required": false,
   "description": "Pod resource. A pod corresponds to a co-located group of [Docker containers](http://docker.io).",
   "properties": {
