@@ -83,6 +83,7 @@
     },
     "labels": {
       "type": "object",
+      "javaType": "java.util.Map<String,String>",
       "required": false
     }
   }
