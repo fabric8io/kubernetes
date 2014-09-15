@@ -41,7 +41,7 @@
           "required": false,
           "description": ""
         },
-        "hostIP": {
+        "podIP": {
           "type": "string",
           "required": false,
           "description": ""
