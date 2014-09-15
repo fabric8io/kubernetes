@@ -71,7 +71,7 @@
           "type": "string",
           "required": false
         },
-        "hostIP": {
+        "podIP": {
           "type": "string",
           "required": false
         },
